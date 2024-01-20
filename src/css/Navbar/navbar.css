@@ -1,0 +1,24 @@
+.sideBar-width {
+    width: calc(100% / 3.5);
+}
+
+.bg-212121 {
+    background: #121212;
+}
+
+.playList-name::before {
+    content: "•";
+    margin: 0px 4px;
+}
+
+@media (max-width:760px) {
+    .mob-navbar {
+        width:100%
+    }
+    .mm {
+        margin: 0;
+    }
+    .navbar-header {
+        justify-content: space-around;
+    }
+}

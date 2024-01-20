@@ -1,0 +1,13 @@
+.playlistWrapper {
+    display: grid;
+    grid-template-columns: minmax(0, 100px) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 100px);
+    gap: 1rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+    .mob-flex {
+        flex-direction: column;
+    }
+}
